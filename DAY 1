@@ -1,0 +1,75 @@
+CODE 1:
+#include<stdio.h>
+int main(){
+int i,n,sum=0;
+scanf("%d",&n);
+for(i=1;i<=n;i++){
+sum=sum+i;
+}
+printf("sum is %d",sum);
+return 0;}
+
+
+
+CODE 2:
+#include<stdio.h>
+int main(){
+int i,n;
+scanf("%d",&n);
+for(i=1;i<=n;i++){
+printf("%d*%d=%d\n",n,i,i*n);
+}
+return 0;
+}
+
+
+CODE 3:
+#include<stdio.h>
+int main(){
+int n,i,fact=1;
+scanf("%d",&n);
+for(i=1;i<=n;i++){
+fact=fact*i;}
+printf("factorial is %d",fact);
+return 0;
+}
+
+
+
+CODE 4:
+#include<stdio.h>
+int main(){  
+int i,n,c=0;
+scanf("%d",&n);
+while(n>0)
+{
+n=n/10;
+c=c+1;
+}
+
+printf("the count of digits is %d",c);
+return 0;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
