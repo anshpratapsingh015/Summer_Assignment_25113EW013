@@ -12,3 +12,13 @@ ascii=ascii+1;
   }
 return 0;
 }
+
+
+
+/*
+A
+AB
+ABC
+ABCD
+ABCDE
+*/
